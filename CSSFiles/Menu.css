@@ -1,0 +1,121 @@
+body{
+	font-family:Verdana,Helvetica;
+	font-size:12px;
+}
+textarea{ 
+	resize: none; 
+	border-style: none;
+	outline: 1px solid #0162a7;
+}
+hr{
+	border: 2px solid #A4A4A4; 
+	border-radius: 300px/10px; 
+	height: 0px; 
+	text-align: center;
+}
+.titulo{
+	text-decoration: underline;
+}
+.barra{
+	display: block;
+	height: 36px;
+	width: 80%;
+	margin-left: 10%;
+	background:#A4A4A4;
+	border-radius:10px; 
+}
+.menu{
+	margin-left:1px;
+}
+.logo{
+	margin-left: 1%;
+	position:absolute;
+}
+.campos{
+	border-style: none;
+	outline: 1px solid #0162a7;
+}
+.formulario{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.boton{
+    font-size:12px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#A4A4A4;
+    border:0px;
+    height:20px;
+	border-radius: 5px;
+	border-style: ridge;
+}
+.boton2{
+	font-size:12px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:#A4A4A4;
+    background:white;
+    border:0px;
+    height:20px;
+	border-radius: 5px;
+	border-style: ridge;
+}
+.tablas{
+	border: 1px solid #A4A4A4;
+	border-style: dotted;
+	border-radius:10px; 
+}
+#contenedor{
+	margin-left: 10%;
+	width: 80%;
+	margin-top: 5%;
+}
+*{
+	font-family:sans-serif;
+	font-size: 14px;
+	list-style:none;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+}
+.nav > li {
+	float:left;
+}
+.nav li a {
+	background:#A4A4A4;
+	color:#FFF;
+	display:block;
+	border:1px solid;
+	padding:8px 12px;
+	border-radius:10px;
+}
+.nav li a:hover {
+	background:#0064a2;
+}
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+.nav li:hover > ul {
+	display:block;
+}
+.nav li ul li {
+	position:relative;
+}
+ 
+.nav li ul li ul {
+	right:-140px;
+	top:0;
+}
+.nav li .flecha{
+	font-size: 9px;
+	padding-left: 6px;
+	display: none;
+}
+.nav li a:not(:last-child) .flecha {
+	display: inline;
+}
+
+
